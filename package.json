@@ -1,0 +1,20 @@
+{
+  "name": "node-docker",
+  "version": "1.0.0",
+  "description": "Node Backend Server with Redis",
+  "main": "app.js",
+  "scripts": {
+    "start": "tsc && node dist/app.js"
+  },
+  "author": "Harshit Pareek",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/express": "^4.17.3",
+    "tslint": "^6.1.0",
+    "typescript": "^3.8.3"
+  },
+  "dependencies": {
+    "express": "^4.17.1",
+    "redis": "^2.8.0"
+  }
+}
