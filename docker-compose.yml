@@ -3,6 +3,7 @@ services:
     redis-image:
         image: 'redis'
     node-docker:
+        restart: always
         build: .
         ports:
             - "3000:3000"
